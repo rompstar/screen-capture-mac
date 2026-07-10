@@ -1,5 +1,7 @@
 # Screen Capture for Mac
 
+![Downloads](https://img.shields.io/github/downloads/rompstar/screen-capture-mac/total) ![Release](https://img.shields.io/github/v/release/rompstar/screen-capture-mac)
+
 A free, self-contained screen recorder for macOS. Record your screen with your
 voice, with the computer's sound, or both mixed together in one file.
 
