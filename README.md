@@ -1,11 +1,14 @@
 # Screen Capture for Mac
 
-![Downloads](https://img.shields.io/github/downloads/rompstar/screen-capture-mac/total) ![Release](https://img.shields.io/github/v/release/rompstar/screen-capture-mac)
+![Downloads](https://img.shields.io/github/downloads/rompstar/screen-capture-mac/total) ![Release](https://img.shields.io/github/v/release/rompstar/screen-capture-mac) ![Signed & Notarized by Apple](https://img.shields.io/badge/Apple-Signed%20%26%20Notarized-0071e3?logo=apple&logoColor=white)
 
 A free, self-contained screen recorder for macOS. Record your screen with your
 voice, with the computer's sound, or both mixed together in one file.
 
 **[⬇ Download the latest version](https://github.com/rompstar/screen-capture-mac/releases/latest/download/ScreenCapture_Mac.zip)**
+
+> [!NOTE]
+> **Signed & notarized by Apple.** Built by a registered Apple Developer and notarized by Apple, so it opens the normal way with a double-click. No "unidentified developer" warning, no right-click workaround, nothing extra to do.
 
 Full instructions, permission setup, and FAQ:
 **https://ffmpegcommander.com/screen-recorder.html**
