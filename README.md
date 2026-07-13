@@ -5,6 +5,8 @@
 A free, self-contained screen recorder for macOS. Record your screen with your
 voice, with the computer's sound, or both mixed together in one file.
 
+![Screen Capture for Mac — free screen recorder with voice and system audio](screen-recorder-screenshot.png)
+
 **[⬇ Download the latest version](https://github.com/rompstar/screen-capture-mac/releases/latest/download/ScreenCapture_Mac.zip)**
 
 > [!NOTE]
