@@ -32,7 +32,6 @@ Press **📞 Direct Call…** at the top of the window.
 
 - **No middle man.** No server, no account, no sign-up. The video goes
   directly from one Mac to the other; nothing in between can see it or log it.
-  It doesn't even ask a public server for your internet address.
 - **You introduce the two Macs.** Send an invite code by text, email or
   Signal; the other person sends a reply code back. That's the whole setup.
 - **Encrypted the whole way** (WebRTC: DTLS-SRTP with AES-128), with fresh keys
@@ -41,8 +40,9 @@ Press **📞 Direct Call…** at the top of the window.
   nobody is sitting in the middle.
 - **Echo cancellation built in**, so you can talk on speakers, plus soft chimes
   when a call connects, ends or drops.
-- Mac to Mac for now. Over the internet, one of you needs a router that opens a
-  port (UPnP / NAT-PMP) or one forwarded port; on the same network it just works.
+- **Works over the internet, no router setup on most home networks.** Each code carries that
+  Mac's public address; when you press Connect both Macs reach each other
+  directly. Mac to Mac for now (1.6.1 or newer on both sides).
 
 How it works and how it's encrypted:
 **https://ffmpegcommander.com/direct-call.html**
