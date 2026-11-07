@@ -8,7 +8,7 @@ with your voice, with the computer's sound, or both mixed together in one file.
 **New in 1.6 for Mac: Direct Call**, encrypted video calls from your Mac
 straight to another Mac. No server, no account, no middle man.
 
-![Screen Capture for Mac — free screen recorder with voice and system audio](screen-recorder-screenshot.png)
+![Screen Capture for Mac 1.6: the recorder and the new Direct Call window side by side](direct-call-screenshot.png)
 
 Full instructions, permission setup, and FAQ:
 **https://ffmpegcommander.com/screen-recorder.html**
