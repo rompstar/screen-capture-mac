@@ -5,6 +5,9 @@
 A free, self-contained screen recorder for Mac and Linux. Record your screen
 with your voice, with the computer's sound, or both mixed together in one file.
 
+**New in 1.6 for Mac: Direct Call**, encrypted video calls from your Mac
+straight to another Mac. No server, no account, no middle man.
+
 ![Screen Capture for Mac — free screen recorder with voice and system audio](screen-recorder-screenshot.png)
 
 Full instructions, permission setup, and FAQ:
@@ -22,9 +25,31 @@ Full instructions, permission setup, and FAQ:
   [BlackHole](https://existential.audio/blackhole/) audio driver — the app has
   a one-click installer for it built in
 
+### Direct Call <sup>new in 1.6</sup>
+
+Video calls from your Mac straight to theirs, built into the same free app.
+Press **📞 Direct Call…** at the top of the window.
+
+- **No middle man.** No server, no account, no sign-up. The video goes
+  directly from one Mac to the other; nothing in between can see it or log it.
+  It doesn't even ask a public server for your internet address.
+- **You introduce the two Macs.** Send an invite code by text, email or
+  Signal; the other person sends a reply code back. That's the whole setup.
+- **Encrypted the whole way** (WebRTC: DTLS-SRTP with AES-128), with fresh keys
+  for every call that are deleted when you hang up.
+- **15-digit safety code.** Read it to each other: if both screens match,
+  nobody is sitting in the middle.
+- **Echo cancellation built in**, so you can talk on speakers, plus soft chimes
+  when a call connects, ends or drops.
+- Mac to Mac for now. Over the internet, one of you needs a router that opens a
+  port (UPnP / NAT-PMP) or one forwarded port; on the same network it just works.
+
+How it works and how it's encrypted:
+**https://ffmpegcommander.com/direct-call.html**
+
 ## Linux (Beta)
 
-**[⬇ Download for Linux](https://github.com/rompstar/screen-capture-mac/releases/download/linux-v1.0.0/LinuxScreenRecorder_GTK4_20260809-125538_linux_x86_64.tar.gz)**
+**[⬇ Download for Linux](https://github.com/rompstar/screen-capture-mac/releases/download/linux-v1.0.2/LinuxScreenRecorder_GTK4_20261010-095752_linux_x86_64.tar.gz)**
 
 > [!NOTE]
 > **Requires a real X11/Xorg session, not Wayland.** The app tries PipeWire first automatically (the modern, Wayland-native capture path) and validates it's actually returning real content — if that check fails, it falls back to FFmpeg's `x11grab`, which needs a genuine X11 session. Having XWayland installed alone isn't enough for that fallback. Full explanation and the fix, if you need it: [download page](https://ffmpegcommander.com/screen-recorder.html#linux-section).
@@ -38,7 +63,10 @@ Full instructions, permission setup, and FAQ:
 - Records your screen to MP4 — hardware-encoded on Mac (Apple VideoToolbox H.264)
 - Three sound modes: your voice, the computer's sound, or both mixed
 - Live monitoring — keep hearing the audio while you record
-- Everything runs locally. No account, no cloud, no uploads.
+- Live preview of exactly what's being recorded, with an on/off switch
+- **Mac:** Direct Call, private video calls Mac to Mac (see above)
+- Everything runs locally. No account, no cloud, no uploads. Recordings never
+  leave your computer, and calls go only to the person you're calling.
 
 ## From the maker of FFmpeg Commander
 
